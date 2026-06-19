@@ -20,10 +20,10 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
     <dct:title xml:lang="it">Banca d&apos;Italia</dct:title>
     <dct:publisher>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -38,92 +38,92 @@
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-29</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-29</dct:issued>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#0"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#1"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#2"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#3"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#4"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#5"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#6"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#7"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#8"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#9"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#10"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#11"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#12"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#13"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#14"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#15"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#16"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#17"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#18"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#19"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#20"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#21"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#22"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#23"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#24"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#25"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#26"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#27"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#28"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#29"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#30"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#31"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#32"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#33"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#34"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#35"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#36"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#37"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#38"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#39"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#40"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#41"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#42"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#43"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#44"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#45"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#46"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#47"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#48"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#49"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#50"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#51"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#52"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#53"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#54"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#55"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#56"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#57"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#58"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#59"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#60"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#61"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#62"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#63"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#64"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home#65"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#66"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#67"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#68"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#69"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#70"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#71"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#72"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#73"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#74"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#75"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#76"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#77"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#78"/>
-    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#79"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/0"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/1"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/2"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/3"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/4"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/5"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/6"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/7"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/8"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/9"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/10"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/11"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/12"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/13"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/14"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/15"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/16"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/17"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/18"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/19"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/20"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/21"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/22"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/23"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/24"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/25"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/26"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/27"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/28"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/29"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/30"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/31"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/32"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/33"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/34"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/35"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/36"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/37"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/38"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/39"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/40"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/41"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/42"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/43"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/44"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/45"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/46"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/47"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/48"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/49"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/50"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/51"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/52"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/53"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/54"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/55"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/56"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/57"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/58"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/59"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/60"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/61"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/62"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/63"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/64"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/inquiry/home/65"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/66"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/67"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/68"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/69"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/70"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/71"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/72"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/73"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/74"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/75"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/76"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/77"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/78"/>
+    <dcat:dataset rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/79"/>
   </dcatapit:Catalog>
 
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#0">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/0">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -136,9 +136,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -146,7 +146,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -187,7 +187,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#1">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/1">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -200,9 +200,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -210,7 +210,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -251,7 +251,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#2">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/2">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -264,9 +264,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -274,7 +274,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -315,7 +315,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#3">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/3">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -328,9 +328,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -338,7 +338,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -379,7 +379,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#4">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/4">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -392,9 +392,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -402,7 +402,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -443,7 +443,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#5">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/5">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -456,9 +456,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -466,7 +466,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -507,7 +507,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#6">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/6">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -520,9 +520,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -530,7 +530,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -571,7 +571,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#7">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/7">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -584,9 +584,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -594,7 +594,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -635,7 +635,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#8">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/8">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -648,9 +648,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -658,7 +658,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -699,7 +699,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#9">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/9">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -712,9 +712,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -722,7 +722,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -763,7 +763,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#10">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/10">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -776,9 +776,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -786,7 +786,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -827,7 +827,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#11">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/11">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -840,9 +840,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -850,7 +850,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -891,7 +891,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#12">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/12">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -904,9 +904,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -914,7 +914,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -955,7 +955,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#13">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/13">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -968,9 +968,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -978,7 +978,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1019,7 +1019,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#14">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/14">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1032,9 +1032,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1042,7 +1042,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1083,7 +1083,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#15">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/15">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1096,9 +1096,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1106,7 +1106,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1147,7 +1147,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#16">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/16">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1160,9 +1160,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1170,7 +1170,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1211,7 +1211,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#17">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/17">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1224,9 +1224,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1234,7 +1234,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1275,7 +1275,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#18">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/18">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1288,9 +1288,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1298,7 +1298,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1339,7 +1339,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#19">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/19">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1352,9 +1352,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1362,7 +1362,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1403,7 +1403,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#20">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/20">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1416,9 +1416,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1426,7 +1426,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1467,7 +1467,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#21">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/21">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1480,9 +1480,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1490,7 +1490,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1530,7 +1530,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#22">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/22">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1543,9 +1543,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1553,7 +1553,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1594,7 +1594,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#23">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/23">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1603,13 +1603,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sui tassi di interesse bancari sui prestiti (in euro) concessi alle società non finanziarie; i dati sono riferiti alle nuove operazioni nel periodo</dct:description>
-    <dct:identifier>bdi___rm|tassi_di_interesse_bancari_sui_prestiti_alle_società_non_finanziarie:nuove-operazioni</dct:identifier>
+    <dct:identifier>bdi_rm|tassi_di_interesse_bancari_sui_prestiti_alle_società_non_finanziarie:nuove-operazioni</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1617,7 +1617,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1658,7 +1658,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#24">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/24">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1667,13 +1667,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sui tassi di interesse bancari sui prestiti (in euro) concessi alle famiglie; i dati sono riferiti alle nuove operazioni nel periodo</dct:description>
-    <dct:identifier>bdi___rm|tassi_di_interesse_bancari_sui_prestiti_alle_famiglie:nuove-operazioni</dct:identifier>
+    <dct:identifier>bdi_rm|tassi_di_interesse_bancari_sui_prestiti_alle_famiglie:nuove-operazioni</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1681,7 +1681,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1722,7 +1722,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#25">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/25">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1731,13 +1731,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sui volumi dei prestiti (in euro) concessi alle famiglie; i dati sono riferiti alle nuove operazioni nel periodo</dct:description>
-    <dct:identifier>bdi___rm|volumi_dei_prestiti_alle_famiglie:nuove-operazioni</dct:identifier>
+    <dct:identifier>bdi_rm|volumi_dei_prestiti_alle_famiglie:nuove-operazioni</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1745,7 +1745,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1786,7 +1786,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#26">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/26">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1795,13 +1795,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sui tassi di interesse bancari sui depositi (in euro) di famiglie e società non finanziarie; i dati sono riferiti alle consistenze di fine periodo</dct:description>
-    <dct:identifier>bdi___rm|tassi_di_interesse_bancari_sui_depositi_di_famiglie_e_società_non_finanziarie:consistenze</dct:identifier>
+    <dct:identifier>bdi_rm|tassi_di_interesse_bancari_sui_depositi_di_famiglie_e_società_non_finanziarie:consistenze</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1809,7 +1809,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1849,7 +1849,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#27">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/27">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1862,9 +1862,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1872,7 +1872,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1913,7 +1913,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#28">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/28">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1922,13 +1922,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sulle principali voci dell&apos;attivo del bilancio statistico della Banca d&apos;Italia</dct:description>
-    <dct:identifier>bdi___rm|bilancio_statistico_della_banca_d&apos;italia:attivita</dct:identifier>
+    <dct:identifier>bdi_rm|bilancio_statistico_della_banca_d&apos;italia:attivita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -1936,7 +1936,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -1977,7 +1977,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#29">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/29">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -1986,13 +1986,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sulle principali voci del passivo del bilancio statistico della Banca d&apos;Italia</dct:description>
-    <dct:identifier>bdi___rm|bilancio_statistico_della_banca_d&apos;italia:passivita</dct:identifier>
+    <dct:identifier>bdi_rm|bilancio_statistico_della_banca_d&apos;italia:passivita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2000,7 +2000,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2041,7 +2041,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#30">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/30">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2054,9 +2054,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2064,7 +2064,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2105,7 +2105,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#31">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/31">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2118,9 +2118,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2128,7 +2128,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2169,7 +2169,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#32">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/32">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2178,13 +2178,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sulle attività di gestione patrimoniale, in particolare sul portafoglio titoli e sul patrimonio gestito</dct:description>
-    <dct:identifier>bdi___rm|attività_di_gestione_patrimoniale:portafoglio-titoli-e-patrimonio-gestito</dct:identifier>
+    <dct:identifier>bdi_rm|attività_di_gestione_patrimoniale:portafoglio-titoli-e-patrimonio-gestito</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2192,7 +2192,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2233,7 +2233,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#33">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/33">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2242,13 +2242,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sui fondi comuni aperti di diritto italiano; sono in particolare riportate le attività, le passività e il patrimonio netto</dct:description>
-    <dct:identifier>bdi___rm|fondi_comuni_aperti_di_diritto_italiano:attivita-passivita-e-patrimonio-netto</dct:identifier>
+    <dct:identifier>bdi_rm|fondi_comuni_aperti_di_diritto_italiano:attivita-passivita-e-patrimonio-netto</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2256,7 +2256,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2297,7 +2297,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#34">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/34">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2306,13 +2306,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sul mercato italiano dei fondi comuni, in particolare il patrimonio e la raccolta netti</dct:description>
-    <dct:identifier>bdi___rm|mercato_italiano_dei_fondi_comuni:patrimonio-e-raccolta-netti</dct:identifier>
+    <dct:identifier>bdi_rm|mercato_italiano_dei_fondi_comuni:patrimonio-e-raccolta-netti</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2320,7 +2320,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2361,7 +2361,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#35">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/35">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2374,9 +2374,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2384,7 +2384,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2425,7 +2425,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#36">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/36">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2438,9 +2438,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2448,7 +2448,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2489,7 +2489,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#37">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/37">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2502,9 +2502,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2512,7 +2512,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2553,7 +2553,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#38">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/38">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2566,9 +2566,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2576,7 +2576,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2617,7 +2617,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#39">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/39">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2630,9 +2630,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2640,7 +2640,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2681,7 +2681,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#40">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/40">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2694,9 +2694,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2704,7 +2704,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2745,7 +2745,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#41">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/41">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2758,9 +2758,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2768,7 +2768,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2809,7 +2809,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#42">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/42">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2822,9 +2822,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2832,7 +2832,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2873,7 +2873,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#43">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/43">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2882,13 +2882,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sulle consistenze di attività e passività finanziarie nei confronti di soggetti non residenti.</dct:description>
-    <dct:identifier>bdi___rm|posizione_patrimoniale_sull&apos;estero:posizioni-nette</dct:identifier>
+    <dct:identifier>bdi_rm|posizione_patrimoniale_sull&apos;estero:posizioni-nette</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2896,7 +2896,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -2937,7 +2937,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#44">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/44">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -2946,13 +2946,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sulle consistenze di attività finanziarie nei confronti di soggetti non residenti.</dct:description>
-    <dct:identifier>bdi___rm|posizione_patrimoniale_sull&apos;estero:attivita</dct:identifier>
+    <dct:identifier>bdi_rm|posizione_patrimoniale_sull&apos;estero:attivita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -2960,7 +2960,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3001,7 +3001,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#45">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/45">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3010,13 +3010,13 @@
       <foaf:Document rdf:about="https://infostat.bancaditalia.it/inquiry/home"/>
     </dcat:landingPage>
     <dct:description xml:lang="it">La tavola contiene informazioni sulle consistenze di passìvità finanziarie nei confronti di soggetti non residenti.</dct:description>
-    <dct:identifier>bdi___rm|posizione_patrimoniale_sull&apos;estero:passivita</dct:identifier>
+    <dct:identifier>bdi_rm|posizione_patrimoniale_sull&apos;estero:passivita</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3024,7 +3024,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3065,7 +3065,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#46">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/46">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3078,9 +3078,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3088,7 +3088,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3129,7 +3129,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#47">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/47">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3142,9 +3142,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3152,7 +3152,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3193,7 +3193,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#48">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/48">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3206,9 +3206,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3216,7 +3216,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3257,7 +3257,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#49">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/49">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3270,9 +3270,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3280,7 +3280,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3321,7 +3321,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#50">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/50">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3334,9 +3334,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3344,7 +3344,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3385,7 +3385,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#51">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/51">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3398,9 +3398,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3408,7 +3408,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3449,7 +3449,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#52">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/52">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3462,9 +3462,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3472,7 +3472,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3513,7 +3513,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#53">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/53">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3526,9 +3526,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3536,7 +3536,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3577,7 +3577,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#54">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/54">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3590,9 +3590,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3600,7 +3600,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3641,7 +3641,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#55">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/55">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3654,9 +3654,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3664,7 +3664,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3705,7 +3705,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#56">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/56">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3718,9 +3718,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3728,7 +3728,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3769,7 +3769,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#57">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/57">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3782,9 +3782,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3792,7 +3792,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3833,7 +3833,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#58">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/58">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3846,9 +3846,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3856,7 +3856,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3897,7 +3897,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#59">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/59">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3910,9 +3910,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3920,7 +3920,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -3961,7 +3961,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#60">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/60">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -3974,9 +3974,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -3984,7 +3984,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4025,7 +4025,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#61">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/61">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -4038,9 +4038,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4048,7 +4048,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4089,7 +4089,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#62">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/62">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -4102,9 +4102,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4112,7 +4112,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4153,7 +4153,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#63">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/63">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -4166,9 +4166,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4176,7 +4176,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4217,7 +4217,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#64">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/64">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -4230,9 +4230,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4240,7 +4240,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4281,7 +4281,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
     <skos:prefLabel>Economia e finanze</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home#65">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/inquiry/home/65">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
@@ -4294,9 +4294,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/#Statistiche"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4304,7 +4304,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4345,7 +4345,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#66">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/66">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4358,9 +4358,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4368,7 +4368,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4409,7 +4409,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#67">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/67">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4422,9 +4422,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4432,7 +4432,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4473,7 +4473,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#68">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/68">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4486,9 +4486,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4496,7 +4496,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4537,7 +4537,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#69">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/69">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4550,9 +4550,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4560,7 +4560,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4601,7 +4601,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#70">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/70">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4614,9 +4614,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4624,7 +4624,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4665,7 +4665,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#71">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/71">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4678,9 +4678,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4688,7 +4688,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4729,7 +4729,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#72">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/72">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4742,9 +4742,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4752,7 +4752,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4793,7 +4793,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#73">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/73">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4806,9 +4806,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4816,7 +4816,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4857,7 +4857,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#74">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/74">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4870,9 +4870,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4880,7 +4880,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4921,7 +4921,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#75">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/75">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4934,9 +4934,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -4944,7 +4944,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -4985,7 +4985,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#76">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/76">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -4998,9 +4998,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -5008,7 +5008,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -5049,7 +5049,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#77">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/77">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -5062,9 +5062,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -5072,7 +5072,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -5113,7 +5113,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#78">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/78">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -5126,9 +5126,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -5136,7 +5136,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -5177,7 +5177,7 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
     <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
   </skos:Concept>
-  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download#79">
+  <dcatapit:Dataset rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/79">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -5190,9 +5190,9 @@
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
     <dcat:contactPoint rdf:resource="https://www.bancaditalia.it/"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="bdi___rm">
+      <dcatapit:Agent rdf:about="bdi_rm">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -5200,7 +5200,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>bdi___rm</dct:identifier>
+        <dct:identifier>bdi_rm</dct:identifier>
         <foaf:name>Banca d&apos;Italia</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
