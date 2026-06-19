@@ -1827,10 +1827,10 @@
     <dcat:keyword>depositi</dcat:keyword>
     <dcat:keyword>tassi di interesse</dcat:keyword>
     <dcat:keyword>famiglie e societa non finanziarie</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/inquiry/home/distribution/html_0"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/inquiry/home/distribution/html_1"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/inquiry/home/distribution/html_0">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/inquiry/home/distribution/html_1">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Tassi di interesse bancari sui depositi di famiglie e società non finanziarie: consistenze  - Accesso</dct:title>
     <dct:description xml:lang="it">Pagina di accesso ai dati</dct:description>
@@ -4386,10 +4386,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>attivita</dcat:keyword>
     <dcat:keyword>storico</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/1"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/1">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-attività</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4450,10 +4450,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>fusioni</dcat:keyword>
     <dcat:keyword>incorporazioni</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/2"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/2">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-fusioni,-incorporazioni,-cessioni-attività-e-passività-ecc.</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4514,10 +4514,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>gruppi bancari</dcat:keyword>
     <dcat:keyword>componenti</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/3"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/3">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-gruppi-bancari</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4578,10 +4578,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>gruppi di finanziarie</dcat:keyword>
     <dcat:keyword>componenti</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/4"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/4">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-gruppi-di-finanziarie</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4642,10 +4642,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>gruppi di SIM</dcat:keyword>
     <dcat:keyword>componenti</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/5"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/5">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-gruppi-di SIM</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4706,10 +4706,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>banche</dcat:keyword>
     <dcat:keyword>storico</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/6"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/6">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-intermediari</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4770,10 +4770,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>garanzie non mutualistiche</dcat:keyword>
     <dcat:keyword>rilascio di garanzie</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/7"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/7">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-intermediari-che-rilasciano-garanzie-non-mutualistiche</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4834,10 +4834,10 @@
     <dcat:keyword>localita geografica</dcat:keyword>
     <dcat:keyword>italia</dcat:keyword>
     <dcat:keyword>estero</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/8"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/8">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-località-geografiche</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4898,10 +4898,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>OICR</dcat:keyword>
     <dcat:keyword>SGR</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/9"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/9">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-OICR</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -4962,10 +4962,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>obbligazioni garantite europee</dcat:keyword>
     <dcat:keyword>programmi autorizzati</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/10"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/10">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-dei-programmi-di-obbligazioni-garantite-europee-autorizzati</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -5026,10 +5026,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>succursali</dcat:keyword>
     <dcat:keyword>banche</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/11"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/11">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-succursali-banche</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -5090,10 +5090,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>succursali</dcat:keyword>
     <dcat:keyword>IMEL</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/12"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/12">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-succursali-IMEL</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -5154,10 +5154,10 @@
     <dcat:keyword>intermediari vigilati</dcat:keyword>
     <dcat:keyword>succursali</dcat:keyword>
     <dcat:keyword>IP</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/13"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/13">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-succursali-IP</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
@@ -5218,10 +5218,10 @@
     <dcat:keyword>obbligazioni garantite con marchio europeo</dcat:keyword>
     <dcat:keyword>obbligazione garantita europea</dcat:keyword>
     <dcat:keyword>obbligazione garantita europea (premium)</dcat:keyword>
-    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download"/>
+    <dcat:distribution rdf:resource="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/14"/>
   </dcatapit:Dataset>
 
-  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/#/area-download">
+  <dcatapit:Distribution rdf:about="https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/area-download/14">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <dct:title xml:lang="it">Lista-delle-obbligazioni-garantite-con-marchio-europeo-(obbligazione-garantita-europea-o-obbligazione-garantita-europea-(premium))</dct:title>
     <dct:description xml:lang="it">File in formato CSV interno ad un file ZIP</dct:description>
