@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:spdx="http://spdx.org/rdf/terms#"
+  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <hydra:PagedCollection rdf:about="https://dati.civilianext.it/frosinone/catalog.rdf?page=1">
+    <hydra:firstPage>https://dati.civilianext.it/frosinone/catalog.rdf?page=1</hydra:firstPage>
+    <hydra:first>https://dati.civilianext.it/frosinone/catalog.rdf?page=1</hydra:first>
+    <hydra:lastPage>https://dati.civilianext.it/frosinone/catalog.rdf?page=1</hydra:lastPage>
+    <hydra:last>https://dati.civilianext.it/frosinone/catalog.rdf?page=1</hydra:last>
+    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hydra:totalItems>
+    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
+  </hydra:PagedCollection>
+  <dcat:Catalog rdf:about="https://dati.civilianext.it/frosinone">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Catalog"/>
+    <dct:title>Comune di Frosinone</dct:title>
+    <dct:description>Opendata - Comune di Frosinone</dct:description>
+    <foaf:homepage rdf:resource="https://dati.civilianext.it/frosinone/#"/>
+    <dct:language>it</dct:language>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-26T11:01:37.127323</dct:modified>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="N378e37788b37401194be00316d193880">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <foaf:name></foaf:name>
+        <dct:identifier></dct:identifier>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dcat:themeTaxonomy>
+      <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+        <dct:title xml:lang="it">Il Vocabolario Data Theme</dct:title>
+      </skos:ConceptScheme>
+    </dcat:themeTaxonomy>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/23381fe0-3122-489d-a992-4468179f9b75">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Residenti per eta e sesso al 31 Dicembre 2023</dct:title>
+        <dct:title xml:lang="it">Residenti per eta e sesso al 31 Dicembre 2023</dct:title>
+        <dct:description>Estratto dei residenti del Comune di Frosinone per eta e sesso al 31 Dicembre 2023 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:description xml:lang="it">Estratto dei residenti del Comune di Frosinone per eta e sesso al 31 Dicembre 2023 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:identifier>c_d810:1760430903149</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>eta e sesso residenti 2023</dcat:keyword>
+        <dcat:keyword>eta residenti</dcat:keyword>
+        <dcat:keyword>residenti</dcat:keyword>
+        <dcat:keyword>sesso residenti</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-31T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-26T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="N881a3f3dc5554a3585761a5cd816533d">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Alessio Cesarano</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/23381fe0-3122-489d-a992-4468179f9b75/resource/dec5de3f-4f36-49e8-a31c-9e5340b4b109"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N24f182b8f77f4900ab170d50499a0dc2">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/residenti-per-eta-e-sesso-al-31-dicembre-2023"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="N92a07c1be12f4b69a203669f39581f96">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Alessio Cesarano </foaf:name>
+            <foaf:name xml:lang="fr"> Alessio Cesarano </foaf:name>
+            <foaf:name xml:lang="en"> Alessio Cesarano </foaf:name>
+            <foaf:name xml:lang="de"> Alessio Cesarano </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="N521997882ab24acd9d2b0da379254c88">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/536ecb35-0c07-42e1-9d22-e665a95ed22c">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Residenti per eta e sesso al 31 Dicembre 2022</dct:title>
+        <dct:title xml:lang="it">Residenti per eta e sesso al 31 Dicembre 2022</dct:title>
+        <dct:description>Estratto dei residenti del Comune di Frosinone per eta e sesso al 31 Dicembre 2022 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:description xml:lang="it">Estratto dei residenti del Comune di Frosinone per eta e sesso al 31 Dicembre 2022 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:identifier>c_d810:1760429882179</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>eta e sesso residenti al 31 12 22</dcat:keyword>
+        <dcat:keyword>eta residenti</dcat:keyword>
+        <dcat:keyword>residenti</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-25T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="Necde74fbe32b412daa8e134cfe551e4f">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Riferimento Metadati</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/536ecb35-0c07-42e1-9d22-e665a95ed22c/resource/9b0c4b18-b7ea-49b6-af0b-afa85eccef0e"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N670527263f1742bd8751c7860a4a2b48">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/residenti-per-eta-e-sesso-al-31-dicembre-2022"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="N09a94877143d46d1b6f00ca7c0624932">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="fr"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="en"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="de"> Proprietario Dati </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="N565ede1780834a9aace3f5a1f46fd567">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/781a6197-a7de-40bf-821d-162fdd13c6a3">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Deceduti serie storica 2019 2024</dct:title>
+        <dct:title xml:lang="it">Deceduti serie storica 2019 2024</dct:title>
+        <dct:description>Serie storica dei deceduti suddivise per maschi e femmine a Frosinone dall'anno 2019 al 2024 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:description xml:lang="it">Serie storica dei deceduti suddivise per maschi e femmine a Frosinone dall'anno 2019 al 2024 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:identifier>c_d810:1752136269749</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>deceduti</dcat:keyword>
+        <dcat:keyword>frosinone deceduti</dcat:keyword>
+        <dcat:keyword>morti</dcat:keyword>
+        <dcat:keyword>serie storica deceduti</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-19T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="N31cbf14fe6c648bcb4313563610dcdcd">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Riferimento Metadati</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/781a6197-a7de-40bf-821d-162fdd13c6a3/resource/99d4bef6-3b1b-4d38-8064-267c4fef0563"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="Necb76456a21448f790c827b5e0802e76">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/deceduti-serie-storica-2019-2024"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="N27d9d144aac34d8bb5e13ae917a03094">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="fr"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="en"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="de"> Proprietario Dati </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="Nf764fb47f2b54ffc98737043caa76f1c">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/85c38ef5-869a-4408-89da-3103e8ac308d">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Punti videosorveglianza Frosinone</dct:title>
+        <dct:title xml:lang="it">Punti videosorveglianza Frosinone</dct:title>
+        <dct:description>Punti videosorveglianza Frosinone - Estrazione da coordinate gps</dct:description>
+        <dct:description xml:lang="it">Punti videosorveglianza Frosinone - Estrazione da coordinate gps</dct:description>
+        <dct:identifier>c_d810:1760428818957</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>comune</dcat:keyword>
+        <dcat:keyword>videosorveglianza</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-09T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-23T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="Nd5d0ec7229264c0a9ee15f29d8a0e3b5">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Riferimento Metadati</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/85c38ef5-869a-4408-89da-3103e8ac308d/resource/0077c234-9af1-4e6c-98b2-693e825c35fc"/>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/85c38ef5-869a-4408-89da-3103e8ac308d/resource/c58f678e-ade7-4f8f-8198-342529bce034"/>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/85c38ef5-869a-4408-89da-3103e8ac308d/resource/99d9c583-7163-4e34-bea2-8474fdf05312"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N705d96901d1a4fbc90e4fad351bc7b67">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/punti-videosorveglianza-frosinone"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="Nf1304361399e4ddeaf11e1c2d9b5b6ce">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="fr"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="en"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="de"> Proprietario Dati </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="Nb589b5a0b04f47a393263d4a6baf11c1">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/b80e20e8-f9c5-48dc-9dc6-5807b0d44f57">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Nascite serie storica 2019 2024</dct:title>
+        <dct:title xml:lang="it">Nascite serie storica 2019 2024</dct:title>
+        <dct:description>Serie storica di nascite suddivise per maschi e femmine a Frosinone dall'anno 2019 al 2024 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:description xml:lang="it">Serie storica di nascite suddivise per maschi e femmine a Frosinone dall'anno 2019 al 2024 - Dati estratti da gestionale dell'Ente</dct:description>
+        <dct:identifier>c_d810:1752059617611</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>frosinone nascite</dcat:keyword>
+        <dcat:keyword>nascite</dcat:keyword>
+        <dcat:keyword>serie storica natalità</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-31T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-07T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="N4a26465bc03f456abc7e3746b29b09fe">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Riferimento Metadati</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/b80e20e8-f9c5-48dc-9dc6-5807b0d44f57/resource/f30d8540-c237-42eb-913e-8a0e381051ea"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N06c5c41f47014232b67afb91e4d8d005">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/nascite-serie-storica-2019-2024"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="N222f80902e00406c92418030a06752b5">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="fr"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="en"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="de"> Proprietario Dati </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="Nf49ba463075d46ecb99f3d7d328179b0">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/1a483159-ec94-4f09-84d4-54eccf69bfed">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Parchi Comunali</dct:title>
+        <dct:title xml:lang="it">Parchi Comunali</dct:title>
+        <dct:description>Mappa dei parchi comunali - Comune di Frosinone - Estrazione da mappale digitale</dct:description>
+        <dct:description xml:lang="it">Mappa dei parchi comunali - Comune di Frosinone - Estrazione da mappale digitale</dct:description>
+        <dct:identifier>c_d810:1751903578827</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>comune</dcat:keyword>
+        <dcat:keyword>frosinone</dcat:keyword>
+        <dcat:keyword>parchi comunali</dcat:keyword>
+        <dcat:keyword>spazio verde</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="N3954a04cfd88429da74cc8dc9553ae0f">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Riferimento Metadati</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/1a483159-ec94-4f09-84d4-54eccf69bfed/resource/7c4cff94-ef34-4cd4-9e45-0bd1d3aa5932"/>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/1a483159-ec94-4f09-84d4-54eccf69bfed/resource/76bacadf-5589-43df-95b4-e6beee1c79e1"/>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/1a483159-ec94-4f09-84d4-54eccf69bfed/resource/5f116bed-dcd7-4094-abf4-c8935c2ba61e"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N8c5cc48776484c3690a9fcfc1618535f">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/parchi-comunali"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="Nae5d48473c9241d6877f892d112d292c">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="fr"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="en"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="de"> Proprietario Dati </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="N6e075702d9464390bd314fd54997a537">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/18219ca6-0780-4a1f-a504-86b3f040a4a8">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Statistiche SUAP Pratiche</dct:title>
+        <dct:title xml:lang="it">Statistiche SUAP Pratiche</dct:title>
+        <dct:description>Statistiche SUAP Pratiche in carico - Estrazione da Gestionale</dct:description>
+        <dct:description xml:lang="it">Statistiche SUAP Pratiche in carico - Estrazione da Gestionale</dct:description>
+        <dct:identifier>c_d810:1734602369571</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>attività commerciali</dcat:keyword>
+        <dcat:keyword>pratiche</dcat:keyword>
+        <dcat:keyword>suap</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-19T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-05T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="N218e76e5f2e64a29b2fc260e0fb7e1f9">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Riferimento Metadati</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/18219ca6-0780-4a1f-a504-86b3f040a4a8/resource/5db82ba5-c614-42d9-9ea8-7cf7f864e015"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N9f067077737a479195a24812887e40ba">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/statistiche-suap-pratiche"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="N92fa49fecbb54f3282d11bce1d3c5578">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="fr"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="en"> Proprietario Dati </foaf:name>
+            <foaf:name xml:lang="de"> Proprietario Dati </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="Na5e9a2143f7a4cdabd379c8b04bae95a">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://dati.civilianext.it/frosinone/dataset/3a2e3997-b118-42f3-826b-4d83e8880c7a">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+        <dct:title>Confine comunale</dct:title>
+        <dct:title xml:lang="it">Confine comunale</dct:title>
+        <dct:description>Confine comunale - Primo caso di test Open Data da DataCatalogue</dct:description>
+        <dct:description xml:lang="it">Confine comunale - Primo caso di test Open Data da DataCatalogue</dct:description>
+        <dct:identifier>c_d810:1725282571933</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+        <dcat:keyword>confine</dcat:keyword>
+        <dcat:keyword>limite aministrativo</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-09T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-09T00:00:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:contactPoint rdf:resource="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e"/>
+        <dct:publisher>
+          <dcatapit:Agent rdf:nodeID="Nd3077217a9444172aa5ec7d5c30bf1d0">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Riferimento Metadati</foaf:name>
+            <dct:identifier>N/A</dct:identifier>
+          </dcatapit:Agent>
+        </dct:publisher>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/3a2e3997-b118-42f3-826b-4d83e8880c7a/resource/dafbff73-5960-43eb-a6d2-23e527d31134"/>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/3a2e3997-b118-42f3-826b-4d83e8880c7a/resource/8f93e6cd-d8f6-4f6f-967a-257ede76488f"/>
+        <dcat:distribution rdf:resource="https://dati.civilianext.it/frosinone/dataset/3a2e3997-b118-42f3-826b-4d83e8880c7a/resource/9da01a70-40ee-4f0b-a960-e620e4c7df44"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="Nc4bd90d746f6487680916977f4db4842">
+            <dcatapit:geographicalIdentifier>https://www.geonames.org/3176515/frosinone.html</dcatapit:geographicalIdentifier>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:landingPage rdf:resource="https://dati.civilianext.it/frosinone/dataset/confine-comunale"/>
+        <dct:creator>
+          <dcatapit:Agent rdf:nodeID="N8407509a773c4d29befef9e700094871">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it"> Riferimento Metadati </foaf:name>
+            <foaf:name xml:lang="fr"> Riferimento Metadati </foaf:name>
+            <foaf:name xml:lang="en"> Riferimento Metadati </foaf:name>
+            <foaf:name xml:lang="de"> Riferimento Metadati </foaf:name>
+            <dct:identifier> c_d810 </dct:identifier>
+          </dcatapit:Agent>
+        </dct:creator>
+        <dct:rightsHolder>
+          <dcatapit:Agent rdf:nodeID="N66240c89a04b4074b3072b2000f9b144">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name xml:lang="it">Comune di Frosinone</foaf:name>
+            <dct:identifier>c_d810</dct:identifier>
+          </dcatapit:Agent>
+        </dct:rightsHolder>
+      </dcat:Dataset>
+    </dcat:dataset>
+  </dcat:Catalog>
+  <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+    <dct:type rdf:resource="http://purl.org/adms/licencetype/PublicDomain"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <foaf:name xml:lang="it">Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
+    <foaf:name xml:lang="en">Creative Commons CC0 1.0 Universal - Public Domain Dedication (CC0 1.0)</foaf:name>
+    <foaf:name xml:lang="de">Creative Commons CC0 1.0 Universell (CC0 1.0) - Public Domain Dedication (CC0 1.0)</foaf:name>
+    <foaf:name xml:lang="fr">Creative Commons CC0 1.0 universel - Transfert dans le Domaine Public (CC0 1.0)</foaf:name>
+  </dcatapit:LicenseDocument>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/18219ca6-0780-4a1f-a504-86b3f040a4a8/resource/5db82ba5-c614-42d9-9ea8-7cf7f864e015">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>csv</dct:title>
+    <dct:title xml:lang="it">csv</dct:title>
+    <dct:description>csv</dct:description>
+    <dct:description xml:lang="it">csv</dct:description>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://geonext.civilianext.it/geonext/frosinone/csv/Statistiche_SUAP_Pratiche.csv"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-09T16:51:36.392960</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-09T16:51:36.384760</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="Nd82aab7b7ddd4eafb1ac612f5f911c11">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_statistiche-suap-pratiche_1_1734602325839</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <owl:versionInfo>4.0</owl:versionInfo>
+        <foaf:name xml:lang="it">Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+        <foaf:name xml:lang="en">Creative Commons Attribution 4.0 International (CC BY 4.0)</foaf:name>
+        <foaf:name xml:lang="de">Creative Commons Namensnennung 4.0 International (CC BY 4.0)</foaf:name>
+        <foaf:name xml:lang="fr">Creative Commons Attribution 4.0 International (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/1a483159-ec94-4f09-84d4-54eccf69bfed/resource/7c4cff94-ef34-4cd4-9e45-0bd1d3aa5932">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title> Visualizzazione dataset "Parchi Comunali"</dct:title>
+    <dct:title xml:lang="it"> Visualizzazione dataset "Parchi Comunali"</dct:title>
+    <dct:description>Servizio per la visualizzazione secondo lo standard OGC:WMS del DataSetParchi Comunali</dct:description>
+    <dct:description xml:lang="it">Servizio per la visualizzazione secondo lo standard OGC:WMS del DataSetParchi Comunali</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MAP_SRVC"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Parchi_Comunali_preview/wms?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T15:56:56.977419</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T15:56:56.968987</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N015d26e52da14cb4834086866ad0ac90">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_parchi-comunali_1_1751903114834</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/b80e20e8-f9c5-48dc-9dc6-5807b0d44f57/resource/f30d8540-c237-42eb-913e-8a0e381051ea">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>CSV</dct:title>
+    <dct:title xml:lang="it">CSV</dct:title>
+    <dct:description>CSV</dct:description>
+    <dct:description xml:lang="it">CSV</dct:description>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://geonext.civilianext.it/geonext/frosinone/csv/NATI_FROSINONE.csv"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-09T11:56:05.979430</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-09T11:56:05.972571</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N962eabc8fa1e4532b4cee90fdf246616">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_nascite-serie-storica-2019-2024_1_1752062135343</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/3a2e3997-b118-42f3-826b-4d83e8880c7a/resource/9da01a70-40ee-4f0b-a960-e620e4c7df44">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title> ZIP dataset "Confine comunale"</dct:title>
+    <dct:title xml:lang="it"> ZIP dataset "Confine comunale"</dct:title>
+    <dct:description>URL di download dello shapefile in formato compresso</dct:description>
+    <dct:description xml:lang="it">URL di download dello shapefile in formato compresso</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Confine_comunale_preview/wfs?service=WFS&amp;version=1.3.0&amp;request=GetFeature&amp;typename=Frosinone_public:Confine_comunale_preview&amp;outputformat=shape-zip"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-02T13:11:27.510854</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-02T13:11:27.505319</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="Na504e050093e40808dc190c876627fc9">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_confine-comunale_3_1725282443174</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/3a2e3997-b118-42f3-826b-4d83e8880c7a/resource/dafbff73-5960-43eb-a6d2-23e527d31134">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title> Visualizzazione dataset "Confine comunale"</dct:title>
+    <dct:title xml:lang="it"> Visualizzazione dataset "Confine comunale"</dct:title>
+    <dct:description>Servizio per la visualizzazione secondo lo standard OGC:WMS del DataSetConfine comunale</dct:description>
+    <dct:description xml:lang="it">Servizio per la visualizzazione secondo lo standard OGC:WMS del DataSetConfine comunale</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MAP_SRVC"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Confine_comunale_preview/wms?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-02T13:11:26.903375</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-02T13:11:26.896288</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N694cbbb3cb744498bbc36bdd2f83b202">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_confine-comunale_1_1725282443174</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/781a6197-a7de-40bf-821d-162fdd13c6a3/resource/99d4bef6-3b1b-4d38-8064-267c4fef0563">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>CSV</dct:title>
+    <dct:title xml:lang="it">CSV</dct:title>
+    <dct:description>CSV</dct:description>
+    <dct:description xml:lang="it">CSV</dct:description>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://geonext.civilianext.it/geonext/frosinone/csv/MORTI_FROSINONE.csv"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-19T15:33:25.447110</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-19T15:33:25.437689</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N2b10e879f8a34f91a18f9a40116725db">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_deceduti-serie-storica-2019-2024_1_1752136337288</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/1a483159-ec94-4f09-84d4-54eccf69bfed/resource/76bacadf-5589-43df-95b4-e6beee1c79e1">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>  Accesso dataset  "Parchi Comunali"</dct:title>
+    <dct:title xml:lang="it">  Accesso dataset  "Parchi Comunali"</dct:title>
+    <dct:description>Servizio per accesso secondo lo standard OGC:WFS al DataSetParchi Comunali</dct:description>
+    <dct:description xml:lang="it">Servizio per accesso secondo lo standard OGC:WFS al DataSetParchi Comunali</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Parchi_Comunali_preview/wfs?service=WFS&amp;version=2.0.0&amp;request=GetCapabilities"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T15:56:57.269840</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T15:56:57.260914</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N162cdaf5261646dcb57e41c1d8cca82e">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_parchi-comunali_2_1751903114834</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/3a2e3997-b118-42f3-826b-4d83e8880c7a/resource/8f93e6cd-d8f6-4f6f-967a-257ede76488f">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>  Accesso dataset  "Confine comunale"</dct:title>
+    <dct:title xml:lang="it">  Accesso dataset  "Confine comunale"</dct:title>
+    <dct:description>Servizio per accesso secondo lo standard OGC:WFS al DataSetConfine comunale</dct:description>
+    <dct:description xml:lang="it">Servizio per accesso secondo lo standard OGC:WFS al DataSetConfine comunale</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Confine_comunale_preview/wfs?service=WFS&amp;version=2.0.0&amp;request=GetCapabilities"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-02T13:11:27.218179</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-02T13:11:27.212185</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N7cf54afa0c3d48f2b6fbdca5ab28677f">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_confine-comunale_2_1725282443174</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </dcat:Distribution>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/REGI">
+    <skos:prefLabel xml:lang="de">Regionen und Städte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Regions and cities</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Régions et villes</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Regioni e città</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Regiones y ciudades</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel xml:lang="de">Bevölkerung und Gesellschaft</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Population and society</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Population et société</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Popolazione e società</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Población y sociedad</skos:prefLabel>
+  </skos:Concept>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/23381fe0-3122-489d-a992-4468179f9b75/resource/dec5de3f-4f36-49e8-a31c-9e5340b4b109">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>csv</dct:title>
+    <dct:title xml:lang="it">csv</dct:title>
+    <dct:description>csv</dct:description>
+    <dct:description xml:lang="it">csv</dct:description>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://geonext.civilianext.it/geonext/frosinone/csv/ResidentiPerEtaESesso_31_12_23.csv"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-26T11:01:37.148333</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-26T11:01:37.135278</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="Nea6df974153d433fa3fb2d37a75ec499">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_residenti-per-eta-e-sesso-al-31-dicembre-2023_1_1782400257778</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel xml:lang="de">Regierung und öffentlicher Sektor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Government and public sector</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Gouvernement et secteur public</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Governo e settore pubblico</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Gobierno y sector público</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ENVI">
+    <skos:prefLabel xml:lang="de">Umwelt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Environment</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Environnement</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Ambiente</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Medio ambiente</skos:prefLabel>
+  </skos:Concept>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/1a483159-ec94-4f09-84d4-54eccf69bfed/resource/5f116bed-dcd7-4094-abf4-c8935c2ba61e">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title> ZIP dataset "Parchi Comunali"</dct:title>
+    <dct:title xml:lang="it"> ZIP dataset "Parchi Comunali"</dct:title>
+    <dct:description>URL di download dello shapefile in formato compresso</dct:description>
+    <dct:description xml:lang="it">URL di download dello shapefile in formato compresso</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Parchi_Comunali_preview/wfs?service=WFS&amp;version=1.3.0&amp;request=GetFeature&amp;typename=Frosinone_public:Parchi_Comunali_preview&amp;outputformat=shape-zip"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T15:56:57.651180</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T15:56:57.642812</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="Naf0e063f50ac4cd685a97ed96c8d24d0">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_parchi-comunali_3_1751903114834</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/85c38ef5-869a-4408-89da-3103e8ac308d/resource/c58f678e-ade7-4f8f-8198-342529bce034">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>  Accesso dataset  "Punti videosorveglianza Frosinone"</dct:title>
+    <dct:title xml:lang="it">  Accesso dataset  "Punti videosorveglianza Frosinone"</dct:title>
+    <dct:description>Servizio per accesso secondo lo standard OGC:WFS al DataSetPunti videosorveglianza Frosinone</dct:description>
+    <dct:description xml:lang="it">Servizio per accesso secondo lo standard OGC:WFS al DataSetPunti videosorveglianza Frosinone</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Punti_videosorveglianza_Frosinone_preview/wfs?service=WFS&amp;version=2.0.0&amp;request=GetCapabilities"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-23T06:23:25.736943</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-23T06:23:25.731199</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N81c2ebffb0a0462e820414766e575363">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_punti-videosorveglianza-frosinone_2_1760428599044</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/536ecb35-0c07-42e1-9d22-e665a95ed22c/resource/9b0c4b18-b7ea-49b6-af0b-afa85eccef0e">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title>csv</dct:title>
+    <dct:title xml:lang="it">csv</dct:title>
+    <dct:description>csv</dct:description>
+    <dct:description xml:lang="it">csv</dct:description>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+    <dcat:accessURL rdf:resource="https://geonext.civilianext.it/geonext/frosinone/csv/ResidentiPerEtaESesso_31_12_22.csv"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-25T15:21:19.595050</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-25T15:21:19.587906</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="Nad4d4ec970e443a2bd8e651b56c81c1e">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_residenti-per-eta-e-sesso-al-31-dicembre-2022_1_1782400776233</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/85c38ef5-869a-4408-89da-3103e8ac308d/resource/0077c234-9af1-4e6c-98b2-693e825c35fc">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title> Visualizzazione dataset "Punti videosorveglianza Frosinone"</dct:title>
+    <dct:title xml:lang="it"> Visualizzazione dataset "Punti videosorveglianza Frosinone"</dct:title>
+    <dct:description>Servizio per la visualizzazione secondo lo standard OGC:WMS del DataSetPunti videosorveglianza Frosinone</dct:description>
+    <dct:description xml:lang="it">Servizio per la visualizzazione secondo lo standard OGC:WMS del DataSetPunti videosorveglianza Frosinone</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MAP_SRVC"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Punti_videosorveglianza_Frosinone_preview/wms?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-23T06:23:25.450489</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-23T06:23:25.444290</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="Nd2665d5dd44845d8a456b540228bf83e">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_punti-videosorveglianza-frosinone_1_1760428599044</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+  <dcatapit:Organization rdf:about="https://dati.civilianext.it/frosinone/organization/42f2c350-74dc-42a7-8f88-c8aeec62d91e">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+    <vcard:fn>comune-di-frosinone</vcard:fn>
+    <vcard:hasEmail rdf:resource="pec@pec.comune.frosinone.it"/>
+    <vcard:hasTelephone></vcard:hasTelephone>
+    <vcard:hasURL rdf:resource=""/>
+  </dcatapit:Organization>
+  <dcat:Distribution rdf:about="https://dati.civilianext.it/frosinone/dataset/85c38ef5-869a-4408-89da-3103e8ac308d/resource/99d9c583-7163-4e34-bea2-8474fdf05312">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+    <dct:title> ZIP dataset "Punti videosorveglianza Frosinone"</dct:title>
+    <dct:title xml:lang="it"> ZIP dataset "Punti videosorveglianza Frosinone"</dct:title>
+    <dct:description>URL di download dello shapefile in formato compresso</dct:description>
+    <dct:description xml:lang="it">URL di download dello shapefile in formato compresso</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <dcat:accessURL rdf:resource="https://geoserverckan.civilianext.it/Frosinone_public/Punti_videosorveglianza_Frosinone_preview/wfs?service=WFS&amp;version=1.3.0&amp;request=GetFeature&amp;typename=Frosinone_public:Punti_videosorveglianza_Frosinone_preview&amp;outputformat=shape-zip"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-23T06:23:26.049440</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-23T06:23:26.043015</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum rdf:nodeID="N02b3b237342047fcbc268f809f02dbce">
+        <spdx:checksumValue rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">c_d810_punti-videosorveglianza-frosinone_3_1760428599044</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </dcat:Distribution>
+</rdf:RDF>
