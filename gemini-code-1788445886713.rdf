@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <vcard:Organization rdf:about="https://www.izsmportici.it/">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+    <vcard:fn>Istituto Zooprofilattico Sperimentale del Mezzogiorno</vcard:fn>
+    <vcard:hasEmail rdf:resource="mailto:ced@izsmportici.it"/>
+    <vcard:hasTelephone>0817865-111</vcard:hasTelephone>
+    <vcard:hasURL rdf:resource="https://www.izsmportici.it/"/>
+  </vcard:Organization>
+
+  <dcatapit:Agent rdf:about="https://www.izsmportici.it/#izsm">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>izsm</dct:identifier>
+    <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+  </dcatapit:Agent>
+
+  <dcatapit:Agent rdf:about="https://www.izsmportici.it/#ufficio-sitd">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <dct:identifier>izsm</dct:identifier>
+    <foaf:name>Ufficio SITD</foaf:name>
+  </dcatapit:Agent>
+
+  <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+    <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+    <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+  </dcatapit:LicenseDocument>
+
+  <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+    <dct:title>Data Theme Vocabulary</dct:title>
+  </skos:ConceptScheme>
+
+  <!-- CATALOGO -->
+  <dcatapit:Catalog rdf:about="https://www.izsmportici.it/catalogo-open-data/">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <dct:title>Istituto Zooprofilattico Sperimentale del Mezzogiorno</dct:title>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#ufficio-sitd"/>
+    <dct:description>Catalogo open data degli esami di laboratorio dell'IZSM</dct:description>
+    <dct:language>it</dct:language>
+    <foaf:homepage rdf:resource="https://www.izsmportici.it/catalogo-open-data/#"/>
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-30</dct:issued>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-alimenti"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-chimica"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-sanita-animale"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-avellino"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-benevento"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-caserta"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-salerno"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-reggio-calabria"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-catanzaro"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-cosenza"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-vibo-valentia"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/totale-esami-rapportati-2024"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-rapportati-2024-per-mese"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/esami-per-specie-e-regione"/>
+    <dcat:dataset rdf:resource="https://www.izsmportici.it/catalogo-open-data/totale-esami-rapportati-2024-per-specie"/>
+  </dcatapit:Catalog>
+
+  <!-- DATASET: SEZIONE DI CATANZARO -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-catanzaro">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme>
+      <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+        <skos:prefLabel>Salute</skos:prefLabel>
+      </skos:Concept>
+    </dcat:theme>
+    <dct:title>ESAMI SEZIONE DI CATANZARO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Catanzaro dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-catanzaro</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-catanzaro/csv9">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/SEZ_CZ_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-CZ</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-catanzaro/csv23">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_CZ_TOTALIESAMI__LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>SEZ-CZ-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: SEZIONE DI VIBO VALENTIA -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-vibo-valentia">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI VIBO VALENTIA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Vibo Valentia dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-vibo-valentia</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-vibo-valentia/csv11">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_VV_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-VV</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-vibo-valentia/csv25">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_VV_TOTALIESAMI__LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>SEZ-VV-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: SEZIONE DI AVELLINO -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-avellino">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI AVELLINO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Avellino dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-avellino</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-avellino/csv4">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/SEZ_AV_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-AV</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: SEZIONE DI CASERTA -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-caserta">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI CASERTA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Caserta dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-caserta</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-caserta/csv6">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/SEZ_CE_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-CE</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-caserta/csv20">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_CE_TOTALIESAMI__LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>SEZ-CE-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: ESAMI PER SPECIE E REGIONE -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-per-specie-e-regione">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI PER SPECIE E REGIONE</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami rapportati eseguiti presso l' IZSM suddivisi per specie e regione</dct:description>
+    <dct:identifier>izsm_esami-per-specie-e-regione</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-13</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-per-specie-e-regione/csv15">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/REGIONE_SPECIE_ESAMI_MENSILIRAPPORTATI_IZSM.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>ESAMI-SPECIE-REGIONE</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-per-specie-e-regione/csv27">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/REGIONE_SPECIE_TOTALIESAMI_MENSILIRAPPORTATI_IZSM.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>ESAMI-SPECIE-REGIONE-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: SEZIONE DI REGGIO CALABRIA -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-reggio-calabria">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI REGGIO CALABRIA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Reggio Calabria dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-reggio-calabria</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-reggio-calabria/csv8">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/SEZ_RC_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-RC</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-reggio-calabria/csv22">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_RC_TOTALIESAMI__LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>SEZ-RC-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: ESAMI RAPPORTATI PER MESE -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-rapportati-2024-per-mese">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI RAPPORTATI PER MESE (2024-2026)</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami rapportati eseguiti presso l' IZSM con cadenza mensile</dct:description>
+    <dct:identifier>izsm_esami-rapportati-2024-per-mese</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-13</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-rapportati-2024-per-mese/csv14">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/TOT_ESAMI_MENSILIRAPPORTATI_IZSM.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>ESAMI-RAPPORTATI-MESE-2024</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: DIPARTIMENTO DI CHIMICA -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-chimica">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI DIPARTIMENTO DI CHIMICA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso il dipartimento di Chimica dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-dipartimento-di-chimica</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-chimica/csv3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/DIPCHIMICA_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>DIPCHIMICA</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-chimica/csv18">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/DIPCHIMICA_TOTALIESAMI_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>DIPCHIMICA-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: DIPARTIMENTO DI ALIMENTI -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-alimenti">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI DIPARTIMENTO DI ALIMENTI</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso il dipartimento di Alimenti dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-dipartimento-di-alimenti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-alimenti/csv2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/DIPALIMENTI_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>DIPALIMENTI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-alimenti/csv17">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/DIPALIMENTI_TOTALIESAMI_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>DIPALIMENTI-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: SEZIONE DI BENEVENTO -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-benevento">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI BENEVENTO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Benevento dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-benevento</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-benevento/csv5">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/SEZ_BN_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-BN</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-benevento/csv19">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_BN_TOTALIESAMI__LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>SEZ-BN-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: SEZIONE DI SALERNO -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-salerno">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI SALERNO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Salerno dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-salerno</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-salerno/csv7">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/SEZ_SA_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-SA</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-salerno/csv21">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_SA_TOTALIESAMI__LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>SEZ-SA-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: SEZIONE DI COSENZA -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-cosenza">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI COSENZA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Cosenza dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-cosenza</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-cosenza/csv10">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/SEZ_CS_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>SEZ-CS</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-sezione-di-cosenza/csv24">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/SEZ_CS_TOTALIESAMI__LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>SEZ-CS-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: DIPARTIMENTO DI SANITA ANIMALE -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-sanita-animale">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI DIPARTIMENTO DI SANITA ANIMALE</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso il dipartimento di Sanità animale dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-dipartimento-di-sanita-animale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:subject rdf:resource="http://eurovoc.europa.eu/100215"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-sanita-animale/csv12">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/09/DIPSANITANIMALE_ESAMI_PROV_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>DIPSANITANIMALE</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/esami-dipartimento-di-sanita-animale/csv26">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/DIPSANITANIMALE_TOTALIESAMI_LAB.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File CSV con i totali aggregati per l'interoperabilità</dct:description>
+        <dct:title>DIPSANITANIMALE-TOTALI</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: TOTALE ESAMI RAPPORTATI (2024-2026) -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/totale-esami-rapportati-2024">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI RAPPORTATI (2024-2026)</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset dei totali annuali degli esami rapportati eseguiti presso l' IZSM</dct:description>
+    <dct:identifier>izsm_totale-esami-rapportati-2024</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-13</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/totale-esami-rapportati-2024/csv13">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/TOT_ESAMI_RAPPORTATI_IZSM.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>ESAMI-RAPPORTATI-2024</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+
+  <!-- DATASET: TOTALE ESAMI RAPPORTATI PER SPECIE (2024-2026) -->
+  <dcat:Dataset rdf:about="https://www.izsmportici.it/catalogo-open-data/totale-esami-rapportati-2024-per-specie">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI RAPPORTATI PER SPECIE (2024-2026)</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/catalogo-open-data/"/>
+    <dct:description>Dataset dei totali degli esami rapportati eseguiti presso l' IZSM suddivisi per specie</dct:description>
+    <dct:identifier>izsm_totale-esami-rapportati-2024-per-specie</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dct:rightsHolder rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:publisher rdf:resource="https://www.izsmportici.it/#izsm"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-13</dct:issued>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:distribution>
+      <dcatapit:Distribution rdf:about="https://www.izsmportici.it/catalogo-open-data/totale-esami-rapportati-2024-per-specie/csv16">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:accessURL rdf:resource="https://www.izsmportici.it/wp-content/uploads/2026/08/TOT_SPECIE_ESAMI_RAPPORTATI_IZSM.csv"/>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+        <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+        <dct:title>ESAMI-RAPPORTATI-SPECIE-MESE-2024</dct:title>
+      </dcatapit:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+</rdf:RDF>
