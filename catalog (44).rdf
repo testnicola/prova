@@ -153,7 +153,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Corsi di studio 2025</dct:title>
         <dct:description>Elenco dei corsi di studio anno 2025</dct:description>
-        <dct:identifier>uni_fe|cds-2025</dct:identifier>
+        <dct:identifier>uni_fe:cds-2025</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>offerta-formativa</dcat:keyword>
@@ -178,7 +178,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Corsi di studio 2024</dct:title>
         <dct:description>Elenco dei corsi di studio anno 2024</dct:description>
-        <dct:identifier>uni_fe|cds-2024</dct:identifier>
+        <dct:identifier>uni_fe:cds-2024</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>offerta-formativa</dcat:keyword>
@@ -203,7 +203,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Corsi di studio 2023</dct:title>
         <dct:description>Elenco dei corsi di studio anno 2023</dct:description>
-        <dct:identifier>uni_fe|cds-2023</dct:identifier>
+        <dct:identifier>uni_fe:cds-2023</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>offerta-formativa</dcat:keyword>
@@ -228,7 +228,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Corsi di studio 2022</dct:title>
         <dct:description>Elenco dei corsi di studio anno 2022</dct:description>
-        <dct:identifier>uni_fe|cds-2022</dct:identifier>
+        <dct:identifier>uni_fe:cds-2022</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>offerta-formativa</dcat:keyword>
@@ -253,7 +253,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Corsi di studio 2021</dct:title>
         <dct:description>Elenco dei corsi di studio anno 2021</dct:description>
-        <dct:identifier>uni_fe|cds-2021</dct:identifier>
+        <dct:identifier>uni_fe:cds-2021</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>offerta-formativa</dcat:keyword>
@@ -278,7 +278,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Corsi di studio 2020</dct:title>
         <dct:description>Elenco dei corsi di studio anno 2020</dct:description>
-        <dct:identifier>uni_fe|cds-2020</dct:identifier>
+        <dct:identifier>uni_fe:cds-2020</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>offerta-formativa</dcat:keyword>
@@ -303,7 +303,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Organigramma</dct:title>
         <dct:description>Organigramma della sede amministrativa dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|organigramma</dct:identifier>
+        <dct:identifier>uni_fe:organigramma</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>organigramma</dcat:keyword>
         <dcat:keyword>sede-amministrativa</dcat:keyword>
@@ -329,7 +329,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Iscritti corsi di laurea</dct:title>
         <dct:description>Elenco degli iscritti per corso di laurea e per provincia di residenza</dct:description>
-        <dct:identifier>uni_fe|iscritti-corsi-laurea</dct:identifier>
+        <dct:identifier>uni_fe:iscritti-corsi-laurea</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>iscrizioni</dcat:keyword>
@@ -370,7 +370,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Immatricolati corsi di laurea</dct:title>
         <dct:description>Elenco degli immatricolati per corso di laurea e per provincia di residenza</dct:description>
-        <dct:identifier>uni_fe|immatricolati-corsi-laurea</dct:identifier>
+        <dct:identifier>uni_fe:immatricolati-corsi-laurea</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>corsi</dcat:keyword>
         <dcat:keyword>immatricolazioni</dcat:keyword>
@@ -409,7 +409,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Access point</dct:title>
         <dct:description>Elenco degli access point installati presso l'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|access-points</dct:identifier>
+        <dct:identifier>uni_fe:access-points</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>wireless</dcat:keyword>
         <dcat:keyword>access-point</dcat:keyword>
@@ -434,7 +434,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Dipartimenti</dct:title>
         <dct:description>Elenco dei dipartimenti dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|dipartimenti</dct:identifier>
+        <dct:identifier>uni_fe:dipartimenti</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>dipartimenti</dcat:keyword>
         <dcat:keyword>facolta</dcat:keyword>
@@ -459,7 +459,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Aule</dct:title>
         <dct:description>Elenco delle aule dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|aule</dct:identifier>
+        <dct:identifier>uni_fe:aule</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>aule</dcat:keyword>
         <dcat:keyword>logistica</dcat:keyword>
@@ -484,7 +484,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Assegnisti di ricerca</dct:title>
         <dct:description>Elenco degli assegnisti di ricerca (art. 22 legge 240/2010) in servizio alla data del 01/01 di ogni anno</dct:description>
-        <dct:identifier>uni_fe|assegnisti</dct:identifier>
+        <dct:identifier>uni_fe:assegnisti</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>assegni-ricerca</dcat:keyword>
         <dcat:keyword>ricerca</dcat:keyword>
@@ -519,7 +519,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Convenzioni tirocini curriculari</dct:title>
         <dct:description>Elenco delle convenzioni di tirocini curriculari dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|convenzioni-tirocini-curriculari</dct:identifier>
+        <dct:identifier>uni_fe:convenzioni-tirocini-curriculari</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>tirocini</dcat:keyword>
         <dcat:keyword>tirocini-curriculari</dcat:keyword>
@@ -580,7 +580,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Progetti formativi tirocini curriculari</dct:title>
         <dct:description>Elenco dei progetti formativi di tirocini curriculari dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|progetti-formativi-tirocini-curriculari</dct:identifier>
+        <dct:identifier>uni_fe:progetti-formativi-tirocini-curriculari</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>tirocini</dcat:keyword>
         <dcat:keyword>tirocini-curriculari</dcat:keyword>
@@ -621,7 +621,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Concorsi docenti</dct:title>
         <dct:description>Elenco dei concorsi per docenti e ricercatori dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|concorsi-docenti</dct:identifier>
+        <dct:identifier>uni_fe:concorsi-docenti</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>concorsi</dcat:keyword>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
@@ -645,7 +645,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Bandi per gli assegni di ricerca</dct:title>
         <dct:description>Elenco dei bandi per gli assegni di ricerca dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|bandi-assegni-ricerca</dct:identifier>
+        <dct:identifier>uni_fe:bandi-assegni-ricerca</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>bandi</dcat:keyword>
         <dcat:keyword>assegni-ricerca</dcat:keyword>
@@ -698,7 +698,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Bandi per i contratti di ricerca</dct:title>
         <dct:description>Elenco dei bandi per i contratti di ricerca dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|bandi-contratti-ricerca</dct:identifier>
+        <dct:identifier>uni_fe:bandi-contratti-ricerca</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>bandi</dcat:keyword>
         <dcat:keyword>contratti-ricerca</dcat:keyword>
@@ -723,7 +723,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Bandi per i dottorati</dct:title>
         <dct:description>Elenco dei bandi per i dottorati dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|bandi-dottorati</dct:identifier>
+        <dct:identifier>uni_fe:bandi-dottorati</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>bandi</dcat:keyword>
         <dcat:keyword>dottorati</dcat:keyword>
@@ -770,7 +770,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Bandi per i professori</dct:title>
         <dct:description>Elenco dei bandi per i professori dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|bandi-professori</dct:identifier>
+        <dct:identifier>uni_fe:bandi-professori</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>bandi</dcat:keyword>
         <dcat:keyword>professori</dcat:keyword>
@@ -817,7 +817,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Bandi per i ricercatori a tempo determinato</dct:title>
         <dct:description>Elenco dei bandi per i ricercatori a tempo determinato dell'Università di Ferrara</dct:description>
-        <dct:identifier>uni_fe|bandi-ricercatori-tempo-determinato</dct:identifier>
+        <dct:identifier>uni_fe:bandi-ricercatori-tempo-determinato</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>bandi</dcat:keyword>
         <dcat:keyword>ricercatori-tempo-determinato</dcat:keyword>
@@ -870,7 +870,7 @@
         <dcat:landingPage rdf:resource="https://opendata.unife.it/"/>
         <dct:title>Progetti di investimento pubblico</dct:title>
         <dct:description>Elenco dei progetti finanziati, con indicazione di CUP importo totale del finanziamento, le fonti finanziarie, la data di avvio del progetto e lo stato di attuazione finanziario e procedurale</dct:description>
-        <dct:identifier>uni_fe|progetti-investimento</dct:identifier>
+        <dct:identifier>uni_fe:progetti-investimento</dct:identifier>
         <dcat:keyword>unife</dcat:keyword>
         <dcat:keyword>progetti</dcat:keyword>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
@@ -924,7 +924,7 @@
         <dcat:landingPage rdf:resource="/"/>
         <dct:title>Dati sui pagamenti</dct:title>
         <dct:description>Dati sui pagamenti ai sensi ex art. 4-bis, D.lgs. n. 33/2013</dct:description>
-        <dct:identifier>uni_fe|pagamenti</dct:identifier>
+        <dct:identifier>uni_fe:pagamenti</dct:identifier>
         <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
         <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-01</dct:modified>
@@ -3649,5 +3649,8 @@
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
     <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
   </skos:Concept>
-
+  <skos:Concept rdf:about="http://eurovoc.europa.eu/">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+    <skos:prefLabel xml:lang="it"></skos:prefLabel>
+  </skos:Concept>
 </rdf:RDF>
