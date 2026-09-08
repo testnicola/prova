@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://www.izsmportici.it/catalogo-open-data/">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Istituto Zooprofilattico Sperimentale del Mezzogiorno</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="izsm">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>izsm</dct:identifier>
+      <foaf:name>Ufficio SITD</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>ESAMI IZSM</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://www.izsmportici.it/catalogo-open-data/#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-30</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-dipartimento-di-alimenti"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-alimenti"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-dipartimento-di-chimica"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-chimica"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-avellino"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-avellino"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-benevento"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-benevento"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-caserta"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-caserta"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-salerno"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-salerno"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-reggio-calabria"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-reggio-calabria"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-catanzaro"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-catanzaro"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-cosenza"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-cosenza"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-vibo-valentia"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-vibo-valentia"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/esami-dipartimento-di-sanita-animale"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-sanita-animale"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/regione-specie-esami"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-regione-specie-esami"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esame-rapportati"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esame-mensili-rapportati"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/totale-esame-specie-rapportati"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/sede-accettazione-tipo-utente-numero-richieste"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/sede-accettazione-numero-richieste"/>
+  <dcat:dataset rdf:resource="https://www.izsmportici.it/opendata/sede-accettazione-esami-numero-richieste-numero-esami"/>
+</dcatapit:Catalog>
+
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-dipartimento-di-alimenti">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI DIPARTIMENTO DI ALIMENTI</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso il dipartimento di Alimenti dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-dipartimento-di-alimenti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0001">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-dipartimento-di-alimenti/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-dipartimento-di-alimenti/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/DIPALIMENTI_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPALIMENTI</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-alimenti">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI DIPARTIMENTO DI ALIMENTI</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso il dipartimento di Alimenti dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-dipartimento-di-alimenti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0002">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-alimenti/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-alimenti/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/DIPALIMENTI_TOTALIESAMI_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPALIMENTI</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-dipartimento-di-chimica">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI DIPARTIMENTO DI CHIMICA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso il dipartimento di Chimica dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-dipartimento-di-chimica</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0003">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-dipartimento-di-chimica/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-dipartimento-di-chimica/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/DIPCHIMICA_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPCHIMICA</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-chimica">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI DIPARTIMENTO DI CHIMICA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso il dipartimento di Chimica dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-dipartimento-di-chimica</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0004">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-chimica/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-chimica/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/DIPCHIMICA_TOTALIESAMI_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPCHIMICA</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-avellino">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI AVELLINO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Avellino dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-avellino</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0005">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-avellino/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-avellino/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_AV_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-AV</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-avellino">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI AVELLINO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso la sezione provinciale di Avellino dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-avellino</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0006">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-avellino/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-avellino/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_AV_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-AV</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-benevento">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI BENEVENTO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Benevento dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-benevento</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0007">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-benevento/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-benevento/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_BN_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-BN</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-benevento">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI BENEVENTO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso la sezione provinciale di Benevento dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-benevento</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0008">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-benevento/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-benevento/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_BN_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-BN</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-caserta">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI CASERTA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Caserta dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-caserta</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0009">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-caserta/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-caserta/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_CE_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-CE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-caserta">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI CASERTA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso la sezione provinciale di Caserta dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-caserta</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0010">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-caserta/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-caserta/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_CE_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-CE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-salerno">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI SALERNO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Salerno dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-salerno</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0011">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-salerno/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-salerno/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_SA_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-SA</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-salerno">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI SALERNO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei titali esami di laboratorio eseguiti presso la sezione provinciale di Salerno dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-salerno</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0012">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-salerno/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-salerno/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_SA_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-SA</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-reggio-calabria">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI REGGIO CALABRIA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Reggio Calabria dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-reggio-calabria</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0013">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-reggio-calabria/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-reggio-calabria/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_RC_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-RC</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-reggio-calabria">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI REGGIO CALABRIA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso la sezione provinciale di Reggio Calabria dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-reggio-calabria</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0014">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-reggio-calabria/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-reggio-calabria/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_RC_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-RC</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-catanzaro">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI CATANZARO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Catanzaro dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-catanzaro</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0015">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-catanzaro/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-catanzaro/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_CZ_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-CZ</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-catanzaro">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI CATANZARO</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso la sezione provinciale di Catanzaro dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-catanzaro</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0016">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-catanzaro/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-catanzaro/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_CZ_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-CZ</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-cosenza">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI COSENZA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Cosenza dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-cosenza</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0017">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-cosenza/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-cosenza/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_CS_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-CS</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-cosenza">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI COSENZA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso la sezione provinciale di Cosenza dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-cosenza</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0018">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-cosenza/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-cosenza/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_CS_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-CS</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-vibo-valentia">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI SEZIONE DI VIBO VALENTIA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso la sezione provinciale di Vibo Valentia dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-sezione-di-vibo-valentia</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0019">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-sezione-di-vibo-valentia/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-sezione-di-vibo-valentia/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_VV_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-VV</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-vibo-valentia">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SEZIONE DI VIBO VALENTIA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso la sezione provinciale di Vibo Valentia dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-sezione-di-vibo-valentia</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0020">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-sezione-di-vibo-valentia/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-sezione-di-vibo-valentia/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEZ_VV_TOTALIESAMI__LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>SEZ-VV</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/esami-dipartimento-di-sanita-animale">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>ESAMI DIPARTIMENTO DI SANITA ANIMALE</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti presso il dipartimento di Sanità animale dell' IZSM.</dct:description>
+    <dct:identifier>izsm_esami-dipartimento-di-sanita-animale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0021">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/esami-dipartimento-di-sanita-animale/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/esami-dipartimento-di-sanita-animale/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/DIPSANITANIMALE_ESAMI_PROV_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-sanita-animale">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI DIPARTIMENTO DI SANITA ANIMALE</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti presso il dipartimento di Sanità animale dell' IZSM.</dct:description>
+    <dct:identifier>izsm_totale-esami-dipartimento-di-sanita-animale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0022">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-sanita-animale/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esami-dipartimento-di-sanita-animale/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/DIPSANITANIMALE_TOTALIESAMI_LAB.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/regione-specie-esami">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>REGIONE ESAMI MENSILI RAPPORTATI PER SPECIE</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset degli esami di laboratorio eseguiti per specie rapportati per mese</dct:description>
+    <dct:identifier>izsm_regione-specie-esami</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0023">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/regione-specie-esami/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/regione-specie-esami/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/REGIONE_SPECIE_ESAMI_MENSILIRAPPORTATI_IZSM.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-regione-specie-esami">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE REGIONE ESAMI MENSILI RAPPORTATI PER SPECIE</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami di laboratorio eseguiti per specie rapportati per mese</dct:description>
+    <dct:identifier>izsm_totale-regione-specie-esami</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0024">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-regione-specie-esami/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-regione-specie-esami/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/REGIONE_SPECIE_TOTALIESAMI_MENSILIRAPPORTATI_IZSM.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esame-rapportati">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI RAPPORTATI</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami rapportati</dct:description>
+    <dct:identifier>izsm_totale-esame-rapportati</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0025">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esame-rapportati/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esame-rapportati/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/TOT_ESAMI_RAPPORTATI_IZSM.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esame-mensili-rapportati">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI MENSILI RAPPORTATI</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami mensili rapportati</dct:description>
+    <dct:identifier>izsm_totale-esame-mensili-rapportati</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0026">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esame-mensili-rapportati/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esame-mensili-rapportati/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/TOT_ESAMI_MENSILIRAPPORTATI_IZSM.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/totale-esame-specie-rapportati">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>TOTALE ESAMI SPECIE RAPPORTATI</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset dei totali esami specie rapportati</dct:description>
+    <dct:identifier>izsm_totale-esame-specie-rapportati</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0027">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/totale-esame-specie-rapportati/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/totale-esame-specie-rapportati/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/TOT_SPECIE_ESAMI_RAPPORTATI_IZSM.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/sede-accettazione-tipo-utente-numero-richieste">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>SEDE ACCETTAZIONE TIPO UTENTE E NUMERO RICHIESTA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset per sede accettazione tipo utente e numero richiesta</dct:description>
+    <dct:identifier>izsm_sede-accettazione-tipo-utente-numero-richieste</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0028">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/sede-accettazione-tipo-utente-numero-richieste/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/sede-accettazione-tipo-utente-numero-richieste/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEDEACC_QUESITI_TIPOUTENTE_NUMRICHIESTE.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/sede-accettazione-numero-richieste">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>SEDE ACCETTAZIONE NUMERO RICHIESTA</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset per sede accettazione numero richiesta</dct:description>
+    <dct:identifier>izsm_sede-accettazione-numero-richieste</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0029">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/sede-accettazione-numero-richieste/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/sede-accettazione-numero-richieste/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEDEACC_QUESITI_NUMRICHIESTE.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+  <dcatapit:Dataset rdf:about="https://www.izsmportici.it/opendata/sede-accettazione-esami-numero-richieste-numero-esami">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:title>SEDE ACCETTAZIONE ESAMI NUMERO RICHIESTA E NUMERO ESAMI</dct:title>
+    <dcat:landingPage rdf:resource="https://www.izsmportici.it/opendata/"/>
+    <dct:description>Dataset per sede accettazione esami numero richiesta e numero esami</dct:description>
+    <dct:identifier>izsm_sede-accettazione-esami-numero-richieste-numero-esami</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL_2"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="izsm">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nizsmpublisher0030">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>izsm</dct:identifier>
+        <foaf:name>Istituto Zooprofilattico Sperimentale del Mezzogiorno</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.izsmportici.it/"/>
+    <dcat:keyword>CAMPIONE</dcat:keyword>
+    <dcat:keyword>Esame</dcat:keyword>
+    <dcat:keyword>IZSM</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.izsmportici.it/opendata/sede-accettazione-esami-numero-richieste-numero-esami/csv2"/>
+  </dcatapit:Dataset>
+
+  <dcatapit:Distribution rdf:about="https://www.izsmportici.it/opendata/sede-accettazione-esami-numero-richieste-numero-esami/csv2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <dcat:accessURL rdf:resource="https://www.izsmportici.it/opendata/SEDEACC_QUESITI_ESAMI_NUMRICHIESTE_NUMESAMI.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>DIPSANITANIMALE</dct:title>
+  </dcatapit:Distribution>
+
+<dcatapit:Organization rdf:about="https://www.izsmportici.it/">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Istituto Zooprofilattico Sperimentale del Mezzogiorno</vcard:fn>
+  <vcard:hasEmail rdf:resource="ced@izsmportici.it"/>
+  <vcard:hasTelephone>0817865-111</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://www.izsmportici.it/"/>
+</dcatapit:Organization>
+
+</rdf:RDF>
